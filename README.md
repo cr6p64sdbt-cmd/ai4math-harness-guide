@@ -13,13 +13,17 @@
 
 ## 怎样在自己的项目中使用
 
+本仓库可以作为不同 agent 应用的参考材料。能读取网页的 agent 可直接访问上述链接；能读取本地文件的 agent 可使用克隆后的目录。不能直接访问 GitHub 时，也可以通过仓库页面的 **Code → Download ZIP** 下载解压，再把相关 Markdown 文件提供给它。
+
+建议先读 `INDEX.md` 和 `guides/COMPARISON.md`，选一个相关系统，再读其教程与 `references/SOURCES.md`。让 agent 结合你项目已有的规则和工具，挑选少量机制融入现有流程，并用一个小任务检查任务交接、状态保存和反馈是否顺畅。具体文件位置、角色名称和工具映射交给你的 agent 判断，无须照搬整套目录。
+
 可以阅读或复制需要的教程、系统档案、模板和统计脚本。复制后保留来源和版本链接，并按 [LICENSE.md](LICENSE.md) 的范围标注出处。每篇系统教程都应先看固定 commit、公开程度和缺失信息；这里的介绍不替代实际运行测试。
 
 `AGENTS.md` 与 `WORKFLOW.md` 是**本仓库的工作规则**。若你的项目已有规则，先比较并选择需要的条款，不要直接覆盖。教程中的上游命令和配置用于理解原系统；是否安装、运行或接入自己的研究环境，应另作决定。
 
 把下面这段话交给你自己的 agent，即可让它按你的研究目标挑选和吸收方法：
 
-> 请阅读 https://github.com/cr6p64sdbt-cmd/ai4math-harness-guide 的 README、INDEX、相关系统的 FRAMEWORK-GUIDE 和 references/SOURCES.md。先问清我的数学任务、可用工具与验证要求，再列出最适合借鉴的 1–2 个 harness 机制：每项注明原始来源、对应版本、输入输出、状态管理、验证方式、公开证据缺口，以及接入我项目需要改动什么。先给可审阅的改造方案，不要直接覆盖我项目现有的 AGENTS.md/WORKFLOW.md，也不要把作者声明或 LLM 检查当作数学证明。
+> 请阅读 https://github.com/cr6p64sdbt-cmd/ai4math-harness-guide 的 README、INDEX、相关系统的教程和 references/SOURCES.md。结合我项目已有的目标、规则与工具，选择最适合借鉴的 1–2 个 harness 机制；仅在缺少必要信息时向我提问。简要说明来源、对应版本和需要的改动，并在我的授权范围内融入现有流程，用一个小任务检查接入是否有效。保留原项目规则，不要整套覆盖 AGENTS.md/WORKFLOW.md，也不要把作者声明或 LLM 检查当作数学证明。
 
 如果只想阅读材料，无须安装原 harness。需要运行原系统时，请回到各篇教程的固定版本和上游仓库核对环境、权限与成本。
 
