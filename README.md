@@ -28,4 +28,3 @@ git clone https://github.com/cr6p64sdbt-cmd/ai4math-harness-guide.git
 ## 内容状态
 
 截至 2026-09-20，仓库收录 16 个候选、9 组系统及成果背景档案、2 篇完整框架教程。候选不等于成功案例，模型或 LLM verifier 给出的 PASS 也不等于数学证明。当前状态、已核来源和缺口见 [STATUS.md](STATUS.md)。
-

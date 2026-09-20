@@ -1,0 +1,16 @@
+# Local source files and generated caches
+references/papers/*
+!references/papers/.gitkeep
+*.pdf
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+runtime/
+
+# Credentials and local configuration must never enter this repository
+.env
+.env.*
+*.key
+*.pem
+config/*.env
